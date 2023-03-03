@@ -1,8 +1,8 @@
 
 ## Description
 
-my implementation of the standard minesweeper is 16x16
-You can find a working version of this minesweeper  <b>[here](https://github.com/exstarzii/AuthServiceFrontend).</b>
+My implementation of the standard 16x16 minesweeper.
+You can find a working version of this  <b>[here](https://exstarzii.github.io/minesweeper.html).</b>
 
 ## Installation
 
