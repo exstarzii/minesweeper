@@ -1,0 +1,135 @@
+.row{
+    height: 16px;
+}
+.head{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.timer,.count{
+    display: flex;
+    flex-direction: row;
+    margin:0 5px;
+}
+.timer div,.count div{
+    width: 13px;
+    height: 23px;
+    background-image:url("./img/minesweeper-sprites_9TPZzv3.png");
+    background-position: -126px 0;
+}
+.smile{
+    background-image:url("./img/minesweeper-sprites_9TPZzv3.png");
+    background-position: 0 -24px;
+    width:26px;
+    height: 26px;
+}
+.wrapper{
+    border-image-source: url("./img/border.png");
+    border-style: solid;
+    border-image-width: 8px;
+    border-image-slice: 8 fill;
+    border-image-repeat: round;
+    width:256px;
+    border-width: 8px;
+}
+.cell{
+    background-image:url("./img/minesweeper-sprites_9TPZzv3.png");
+    width: 16px;
+    height: 16px;
+    background-position: 0 33px;
+    display: inline-block;
+}
+.cell[data-display='1'] {
+    background-position: 0 -68px;
+}
+.cell[data-display='2'] {
+    background-position: -17px -68px;
+}
+.cell[data-display='3'] {
+    background-position: -34px -68px;
+}
+.cell[data-display='4'] {
+    background-position: -51px -68px;
+}
+.cell[data-display='5'] {
+    background-position: -68px -68px;
+}
+.cell[data-display='6'] {
+    background-position: -85px -68px;
+}
+.cell[data-display='7'] {
+    background-position: -102px -68px;
+}
+.cell[data-display='8'] {
+    background-position: -119px -68px;
+}
+
+.cell[data-display='hidden'] {
+    background-position: 0 -51px;
+}
+.cell[data-display='0'] {
+    background-position: -17px -51px;
+}
+.cell[data-display='flag'] {
+    background-position: -34px -51px;
+}
+.cell[data-display='?'] {
+    background-position: -51px -51px;
+}
+
+.cell[data-display='mine'] {
+    background-position: -85px -51px;
+}
+.cell[data-display='mineActive'] {
+    background-position: -102px -51px;
+}
+.cell[data-display='mineFalse'] {
+    background-position: -119px -51px;
+}
+.timerSymb[data-display='0'], .countSymb[data-display='0']{
+    background-position: -126px 0;
+}
+.timerSymb[data-display='1'], .countSymb[data-display='1']{
+    background-position: 0 0;
+}
+.timerSymb[data-display='2'], .countSymb[data-display='2']{
+    background-position: -14px 0;
+}
+.timerSymb[data-display='3'], .countSymb[data-display='3']{
+    background-position: -28px 0;
+}
+.timerSymb[data-display='4'], .countSymb[data-display='4']{
+    background-position: -42px 0;
+}
+.timerSymb[data-display='5'], .countSymb[data-display='5']{
+    background-position: -56px 0;
+}
+.timerSymb[data-display='6'], .countSymb[data-display='6']{
+    background-position: -70px 0;
+}
+.timerSymb[data-display='7'], .countSymb[data-display='7']{
+    background-position: -84px 0;
+}
+.timerSymb[data-display='8'], .countSymb[data-display='8']{
+    background-position: -98px 0;
+}
+.timerSymb[data-display='9'], .countSymb[data-display='9']{
+    background-position: -112px 0;
+}
+.smile[data-display='[:)]']{
+    background-position: 0 -24px;
+}
+.smile[data-display=']:)[']{
+    background-position: -27px -24px;
+}
+.smile[data-display='x(']{
+    background-position: -108px -24px;
+}
+.smile[data-display='B)']{
+    background-position: -81px -24px;
+}
+.smile[data-display=':0']{
+    background-position: -54px -24px;
+}
